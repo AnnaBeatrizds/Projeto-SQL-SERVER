@@ -1,0 +1,3 @@
+-- TESTANDO PERMISSÕES DE USUÁRIO PARA O ANALISTA_DADOS
+SELECT * FROM CLIENTES; -- Deve retornar os dados normalmente. 
+DELETE FROM CLIENTES; -- O SQL deve barrar! 
